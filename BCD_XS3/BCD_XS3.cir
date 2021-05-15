@@ -1,0 +1,19 @@
+* D:\eSimProjects\BCD_XS3\BCD_XS3.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 05/14/21 19:47:54
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  VCC GND GND VCC Out1 Out2 Out3 Out4 BCD_XS3		
+U6  Out1 plot_v1		
+U8  Out2 plot_v1		
+U7  Out3 plot_v1		
+U4  GND plot_v1		
+U3  GND plot_v1		
+U2  VCC plot_v1		
+U9  Out4 plot_v1		
+U5  VCC plot_v1		
+
+.end
